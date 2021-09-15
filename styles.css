@@ -1,0 +1,33 @@
+#parent{
+    display: grid;
+    grid-template-columns: 110px 185px 185px;
+    grid-template-rows: 80px 100px 70px 80px 40px;
+    grid-template-areas: 
+    "fish-flag fish-flag vase-short"
+    "map map vase-short"
+    "vase-tall bamboo bamboo"
+    "vase-tall bamboo bamboo "
+    "vase-tall bamboo bamboo"
+    "vase-tall bamboo bamboo"
+    "vase-tall quadropus quadropus "
+    "vase-tall quadropus quadropus "
+}
+
+.fish-flag{
+    grid-area: fish-flag;
+}
+.vase-short{
+    grid-area: vase-short;
+}
+.map{
+    grid-area: map;
+}
+.vase-tall{
+    grid-area: vase-tall;
+}
+.bamboo{
+    grid-area: bamboo;
+}
+.quadropus{
+    grid-area: quadropus;
+}
